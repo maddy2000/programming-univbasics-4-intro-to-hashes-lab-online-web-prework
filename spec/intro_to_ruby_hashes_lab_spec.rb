@@ -1,12 +1,19 @@
-require_relative 'spec_helper'
-require_relative '../intro_to_ruby_hashes_lab.rb'
+ def my_hash clothes
+   new_hash={}
+end
 
-describe "working with hashes" do
-
+def my_hash 
+  {"clothes" => "shirt" "pants" => "shirts"
+end
   describe "instantiating" do
-    describe "new_hash" do
-      it "creates an empty hash and returns it" do
-        expect(new_hash).to eq({})
+    def pioneer
+      {:name "grace hopper"}
+      end  
+      def id_generator
+        {:id => 5}
+      end
+      def my_hash_creator(key, value)
+       {: name => "grace hopper",:value =>1,2}      
       end
     end
 
